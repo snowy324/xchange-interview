@@ -220,6 +220,16 @@ export default class CloudBody extends Vue {
   background-color: white;
   border-radius: 5px;
   padding: 10px;
+  transition: all 0.2s;
+  position: relative;
+  top: 0;
+  right: 0;
+
+  &:hover {
+    top: -3px;
+    right: -2px;
+    box-shadow: 1px 2px 2px 1px rgba(87, 87, 88, 0.2);
+  }
 }
 
 .summary-text {

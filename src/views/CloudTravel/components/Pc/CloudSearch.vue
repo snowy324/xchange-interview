@@ -75,6 +75,7 @@ export default class CloudSearch extends Vue {
   }
 
   clickSuggestion(suggestion: Suggestion): void {
+    console.log(suggestion)
     this.location = suggestion.label;
     this.afterClickSuggestion = false;
     this.cityCode = suggestion.cityCode;
@@ -139,7 +140,7 @@ export default class CloudSearch extends Vue {
     z-index: 12;
     height: 120px;
     opacity: 1;
-    transition: all 0.3s;
+    transition: all 0.6s;
 
     li {
       height: 40px;
