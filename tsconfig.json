@@ -20,7 +20,25 @@
     "paths": {
       "@/*": [
         "src/*"
-      ]
+      ],
+      "@views/*": [
+        "src/views/*"
+      ],
+      "@request/*": [
+        "src/request/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@pc/*": [
+        "src/views/CloudTravel/components/Pc"
+      ],
+      "@mobile/*": [
+        "src/views/CloudTravel/components/Mobile"
+      ],
     },
     "lib": [
       "esnext",
@@ -34,7 +52,8 @@
     "src/**/*.tsx",
     "src/**/*.vue",
     "tests/**/*.ts",
-    "tests/**/*.tsx"
+    "tests/**/*.tsx",
+    "src/types/*.d.ts",
   ],
   "exclude": [
     "node_modules"
